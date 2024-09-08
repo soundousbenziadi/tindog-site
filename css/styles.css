@@ -1,0 +1,72 @@
+#title{
+    background-color: #ff4c64;
+    color: white;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}
+h1{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        line-height: 1.5; 
+        font-size: 3rem;
+}
+h3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5rem;
+  }
+  p{
+      color: #8f8f8f;
+  }
+.container-fluid{
+    padding: 3% 15%;
+}
+/* navigation bar */
+.navbar{
+    padding:0 0 4.5rem 0;
+}
+.navbar-brand{
+    font-family: ubuntu;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat Alternates", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    cursor: pointer;
+}
+ /* download buttons */
+ .download-btn{
+    margin: 5% 3% 5% 0;
+ }
+ /* title image */
+ .title-img{
+    width: 60%;
+    transform: rotate(25deg);
+ }
+/* Features */
+#features{
+    padding: 7% 15%; /*tb lr */
+}
+.features-col{
+    text-align: center;
+    padding: 1%;
+}
+.features-icons{
+    margin: 5% 3% 7% 3%;
+    color: #ef8172;
+    align-items: center;
+}
+.features-icons:hover{
+    color: #ff4c64;
+}
+
+
