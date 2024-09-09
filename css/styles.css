@@ -61,15 +61,6 @@ h3{
     position: absolute;
     right: 30%;
  }
- @media (max-width:1028px){
-    .title-img{
-        position:static;
-        transform: rotate(0);
-    }
-    #title{
-      text-align: center;
-    }
- }
 /* Features */
 #features{
     padding: 7% 15%; /*tb lr */
@@ -119,4 +110,43 @@ h3{
  .pricing-col{
     padding: 3% 2%;
     
+ }
+/* call to action section */
+#cta{
+    background-color: #ff4c64;
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta-text{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 1.5; 
+    font-size: 3rem;
+    color: white;
+}
+.fa-download{
+    margin-right: 2%;
+}
+/* footer */
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+.fa-footer{
+    margin: 2% 1%;/* tb lr */
+    color: black;
+}
+.fa-footer:hover{
+    color: #ff4c64;
+    cursor: pointer;
+}
+@media (max-width:1028px){
+    .title-img{
+        position:static;
+        transform: rotate(0);
+    }
+    #title{
+      text-align: center;
+    }
  }
