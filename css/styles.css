@@ -84,7 +84,7 @@ h3{
 }
 .testimonials-img{
     border-radius: 100%;
-    width: 10%;
+    width: 16%;
     margin: 20px;
 }
 .testimonials-carousel-item{
@@ -99,3 +99,12 @@ h3{
     width: 15%;
     margin: 20px;
 }
+ /* pricing section*/
+ #pricing{
+    padding: 7% 10%;
+    text-align: center;
+ }
+ .pricing-col{
+    padding: 3% 2%;
+    
+ }
