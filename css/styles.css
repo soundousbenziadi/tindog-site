@@ -61,6 +61,15 @@ h3{
     position: absolute;
     right: 30%;
  }
+ @media (max-width:1028px){
+    .title-img{
+        position:static;
+        transform: rotate(0);
+    }
+    #title{
+      text-align: center;
+    }
+ }
 /* Features */
 #features{
     padding: 7% 15%; /*tb lr */
