@@ -153,7 +153,7 @@ p{
         position:static;
         transform: rotate(0);
     }
-    #title{
+    #title .container-fluid{
       text-align: center;
     }
  }
